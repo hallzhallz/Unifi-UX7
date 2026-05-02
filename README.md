@@ -32,7 +32,7 @@ Install the `Unifi` app on your phone or tablet.
    | -- | -- |
    | Name | Main |
    | Auto-Scale Network | De-select |
-	 | IPv4 Address | 192.168.10.1/24 |
+	 | IPv4 Address | 192.168.100.1/24 |
    | VLAN ID | 100 |
 3. Click `Create`.
 4. Click New Virtual network and enter the details (Create IoT VLAN)
@@ -166,5 +166,25 @@ Since the UX7 only has one LAN port it must always act as a Trunk Port and can o
    7. Schedule: `Always`
    8. Click `Add`.
 
+### Auto Updates
+1. Select `Control Plane` in left menu and select the `Updates` tab at top of page
+2. Click `UX7` row under `UniFi OS`, then
+	1. Release Channel: `Official`
+	2. Auto-Update: `Checked`
+       |  |  |
+       | -- | -- |
+       | Repeats | Weekly |
+       | At | 2AM |
+	   | On Day of Week | Sat |
+	3. Click `Apply Changes`.
+3. Click `Network` row under `Application`, then
+	1. Release Channel: `Official`
+	2. Application Auto-Update: Checked
+       |  |  |
+       | -- | -- |
+       | Repeats | Weekly |
+       | At | 3AM |
+	   | On Day of Week | Sat |
+	3. Click `Apply Changes`.
 
 
