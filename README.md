@@ -94,7 +94,8 @@ Install the `Unifi` app on your phone or tablet.
 13. Click `Add Policy`.
 
 The zones should look like this:
-![Zone Based Firewall Configuration](UX7 Zone Based Firewall Setup.png)
+
+![Zone Based Firewall Configuration Diagram](UX7 Zone Based Firewall Setup.png "Zone Based Firewall Configuration Diagram")
 
 ### Ports
 Since the UX7 only has one LAN port it must always act as a Trunk Port and can only be native to the Default VLAN 1 ( This is a device limitation).
