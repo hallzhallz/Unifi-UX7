@@ -198,4 +198,4 @@ Since the UX7 only has one LAN port it must always act as a Trunk Port and can o
 ## Reference
 
 [Lazy Admin Unifi Zone Based Firewall](https://lazyadmin.nl/home-network/unifi-zone-based-firewall/)
-A good guide to understanding the Zone Based firewall. Just not that it does not fully explain putting the IoT network into the IoT Zone.
+A good guide to understanding the Zone Based firewall. Just note that it does not fully explain putting the IoT network into the IoT Zone. I found it easiest to add an IoT zone and putt the IoT Network/VLAN into it. Then the rules show on the Zone matrix correctly and less rules/policy is needed.
