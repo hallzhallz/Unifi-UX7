@@ -92,5 +92,20 @@ Install the `Unifi` app on your phone or tablet.
 ### Ports
 Since the UX7 only has one LAN port it must always act as a Trunk Port and can only be native to the Default VLAN 1 ( This is a device limitation).
 
+1. Click the `Overview` left hand menu item
+   1. Under `Ethernet Port Profiles` click `Create New` and enter:
+      |  |  |
+      | -- | -- |
+      | Name | Switch Trunk Port |
+      | Port | Active |
+      | Native  VLAN | Default (1) |
+      | Tagged VLAN Management | Allow All |
+   2. Then Click `Apply Changes` at bottom of screen.
+3. Select `Ports` Icon from left menu near top
+4. Click the `LAN Port` (Port 1)
+5. Under `Advanced` switch to `Manual`.
+6. Check `Ethernet Port Profile`.
+7. Select the `Switch Trunk Port Profile`.
+8. Click `Apply Changes`.
 
 
