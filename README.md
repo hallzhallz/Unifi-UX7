@@ -187,4 +187,6 @@ Since the UX7 only has one LAN port it must always act as a Trunk Port and can o
 	   | On Day of Week | Sat |
 	3. Click `Apply Changes`.
 
-
+### Backups
+1. Select `Control Plane` in left menu and select the `Backups` tab at top of page
+2. `Auto (Weekly)` Checked
