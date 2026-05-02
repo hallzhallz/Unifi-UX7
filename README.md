@@ -1,5 +1,7 @@
 # Unifi-UX7
-Securing a Ubiquiti Unifi UX7 for Home Office Use
+This is a guide to setting up and securing a Ubiquiti Unifi UX7 for Home Office Use.
+
+It utilises the new zone based firewall.
 
 [Browse recommended products on amazon](https://amzn.to/4diDgac)
 
@@ -190,3 +192,8 @@ Since the UX7 only has one LAN port it must always act as a Trunk Port and can o
 ### Backups
 1. Select `Control Plane` in left menu and select the `Backups` tab at top of page
 2. `Auto (Weekly)` Checked
+
+## Reference
+
+[Lazy Admin Unifi Zone Based Firewall](https://lazyadmin.nl/home-network/unifi-zone-based-firewall/)
+A good guide to understanding the Zone Based firewall. Just not that it does not fully explain putting the IoT network into the IoT Zone.
