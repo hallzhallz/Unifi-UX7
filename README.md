@@ -108,4 +108,63 @@ Since the UX7 only has one LAN port it must always act as a Trunk Port and can o
 7. Select the `Switch Trunk Port Profile`.
 8. Click `Apply Changes`.
 
+### Security
+1. Click `CyberSecure` and choose `Protection` tab at top.
+2. Tick `Region Blocking` and enter
+   1. Select `Block`
+   2. Select ` Both directions`
+   3. Select `Country or Territory` and add
+	  - `Russia`, `China`, `Iran`
+4. `Encrypted DNS` Select `Predefined`
+	1. Clear existing entries
+	2. Select the following then `Save`.
+	   1. `Cloudflare-security`
+	   2. `Quad9-doh-ip4-port443-filter-ecs-pri`
+5. Identification: `Device and Traffic`.
+6. Intrusion Prevention: `On`.
+	1. Selected Networks: `Default`,`Main`,`IoT`.
+	2. Detection Mode: `Notify and Block`.
+7. Click `Apply Changes`.
+8. Click `CyberSecure` and choose `Content Filter` tab at top.
+   |  |  |
+   | -- | -- |
+   | Name | Content Filtering |
+   | Source | `IoT`,`Main`,`Default` |
+   | Ad Block | Checked |
+   | Filtering | Basic |
+   | Schedule | Always |
+9. Click `Add` at bottom of page.
+
+### WiFi
+1. Click Wifi in side menu
+2. Click Manage and remove the default Wifi network
+3. Click Create New and enter (Main Wifi):
+	1. Name: *Your Main WiFi Name*
+	2. Password: ***Main WiFi Password***
+	3. Network: `Main`
+	4. Wifi Optimization: `Standard`
+	5. Click Create
+4. Click Create New and enter (IoT Wifi):
+	1. Name: *IoT WiFi Name*
+	2. Password: ***IoT WiFi Password***
+	3. Network: `IoT`
+	4. Wifi Optimization: `IoT`
+	5. Click `Create`.
+
+ ### QoS
+1. Select the Dashboard Icon at the top left of screen
+2. On the left in the Critical Traffic Prioritization box select Configure
+3. Under QoS Rules click Create Policy and enter
+   1. Select: QoS
+   2. Name: Calling VPN Games
+   3. QoS Behavior: Prioritize
+   4. Interface: Internet 1
+   5. Source: Any
+   6. Destination: App
+	  1. Select Category
+	  2. Select items `Instant Messengers`, `VoIP Services`, `Online Games`, `Tunneling and Proxy Services`
+   7. Schedule: `Always`
+   8. Click `Add`.
+
+
 
