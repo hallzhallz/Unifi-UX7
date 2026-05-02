@@ -13,18 +13,20 @@ Hold the reset pin in for ~10 seconds a factory reset message should display
 #### Unfi App (Android/iOS)
 Install the `Unifi` app on your phone or tablet.
 
-## Adoption
+## Connecting
+
+### Adoption
 
 1. Plug in the Router and wait for it to boot.
 2. Open the `Unifi` App and when the router appears click setup.
 3. When prompted choose to setup a new network/site.
 4. Enter the site name and wifi name and password.
 
-## Networks
-
 ### Login
 1. Login to `Unifi Site Manager` https://unifi.ui.com
 2. From Site manager click `Control Plane` under the device or cick the device name, then click the cog in the bottom left of the screen/menu.
+
+## Configuration
 
 ### Networks/VLANs
 
